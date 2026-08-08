@@ -1,0 +1,16 @@
+application:
+  subdomain: risuai
+  background_task: true
+  upstreams:
+    - location: /
+      backend: http://risuai:6001/
+services:
+  risuai:
+    # upstream: ghcr.io/kwaroran/risuai:v2026.6.214
+    image: ghcr.1ms.run/kwaroran/risuai:v2026.6.214
+    binds:
+      - /lzcapp/var/save:/app/save
+usage: |
+  打开应用后即可创建或导入角色卡，并在设置中配置所使用模型服务的 API 地址和密钥。
+  聊天记录、角色卡和应用设置保存在懒猫应用数据目录中，升级或重启不会丢失。
+  模型服务的 API 密钥属于敏感信息，请仅在可信设备上使用并定期备份应用数据。

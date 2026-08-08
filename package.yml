@@ -1,0 +1,18 @@
+package: cloud.lazycat.app.risuai
+version: 2026.6.214
+name: RisuAI
+description: A user-friendly AI roleplaying chat application with character cards and multiple model providers.
+min_os_version: 1.5.0
+homepage: https://github.com/kwaroran/Risuai
+author: kwaroran
+license: GPL-3.0
+permissions:
+  required:
+    - net.internet
+locales:
+  zh:
+    name: RisuAI
+    description: 支持角色卡、多模型提供商和丰富聊天功能的 AI 角色扮演应用。
+  en:
+    name: RisuAI
+    description: An AI roleplaying app with character cards, multiple model providers, and rich chat features.
