@@ -2,7 +2,7 @@ name: Publish LazyCat application
 
 on:
   schedule:
-    - cron: "41 18 * * *"
+    - cron: "41 21 * * *"
   workflow_dispatch:
 
 permissions:
