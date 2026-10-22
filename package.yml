@@ -1,5 +1,5 @@
 package: cloud.lazycat.app.risuai
-version: 2026.8.240
+version: 2026.10.211
 name: RisuAI
 description: A user-friendly AI roleplaying chat application with character cards and multiple model providers.
 min_os_version: 1.5.0
